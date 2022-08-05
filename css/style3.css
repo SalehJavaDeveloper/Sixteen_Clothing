@@ -1,0 +1,198 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    }
+    .clearfix:after{
+        content: "";
+        display: block;
+        clear: both;
+    }
+    
+    *{
+        box-sizing: border-box;
+    }
+    html{
+    font-size: 16px;
+    }
+    /* Banner Navigation */
+    .master{
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/images/about-heading.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 100px;
+    }
+    
+    .navigation{
+    background-color: rgb(31, 30, 30);
+    }
+    .nav-center{
+    max-width: 1200px;
+    margin: 0 auto;
+    }
+    .nav-center h1{
+    float: left;
+    padding-left: 10px;
+    columns: #fff;
+    padding-top: 5px;
+    }
+    .orange{
+    color: #f23434;   
+    }
+    .nav-center ul{
+    float: right;
+    }
+    .navigation ul li{
+    float: left;
+    list-style: none;
+    font-weight: 700;
+    padding: 15px 40px 0px 0px;
+    padding-top: 12px;
+    font-size: 1rem;
+    }
+    .icon{
+    float: right;
+    margin: 20px 10px 0 0;
+    background-color: transparent;
+    border:none;
+    outline: none;
+    display: none;
+    }
+    a{
+        color: #fff;
+        text-decoration: none;
+    }
+    .fa{
+    font-size: 30px;
+    color: #fff;
+    }
+    
+    .banner{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 30vh;
+    color: #fff;
+    }
+    .banner h3{
+    color:#f23434;
+    font-size: 1.4rem; 
+    }
+    .banner h1{
+    font-size: 3.5rem;
+    letter-spacing: 5px;
+    font-weight: 500;
+    margin-top: 0;
+    }
+    .about{
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 15px;
+        }
+        .about h1{
+        font-weight: 100;
+        color: rgb(56, 56, 56);
+        }
+        .about hr{
+        height: 1px;
+        border: none;
+        background-color: rgb(214, 214, 218);
+        }
+        
+.about .left-box{
+    width: 50%;
+    float: left;
+    padding-right: 20px;
+    }
+    .left-box h2{
+    color: #5c92b1;
+    font-weight: 100;
+    margin-top:0 ;
+    }
+    .left-box p {
+        margin-bottom: 25px;
+    }
+    .about p {
+        border-bottom: 1px solid #eee;
+        padding-bottom: 20px;
+    }
+    .left-box p{
+    line-height: 25px;
+    color: rgb(122, 120, 120);
+    padding: 10px 0 0 0;
+    font-size: 14px;
+    }
+    .left-box a{
+    color: cornflowerblue;
+    }
+    .about .right-box{
+        width: 50%;
+        float: right;
+        margin: 20px 0 0 0;
+        }
+        .right-box .about-pic{
+        width: 100%;
+    }
+    .pages{
+        float: left;
+        max-width: 100%;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+        .pages ul{
+        list-style: none;
+        }
+        .pages ul.mybox {
+            margin-top: 30px;
+            text-align: center;
+        }
+        .pages ul li{
+            
+        display: inline-block;
+        margin: 0px 2px;
+        }
+        .pages ul li a:hover{
+            background-color: #f33f3f;
+            border-color: #f33f3f;
+            color: #fff;
+        }
+        
+    .products ul.pages li a:hover {
+        background-color: #f33f3f;
+        border-color: #f33f3f;
+        color: #fff;
+    }
+    .pages ul li a {
+        width: 44px;
+        height: 44px;
+        display: inline-block;
+        line-height: 42px;
+        border: 1px solid #eee;
+        font-size: 15px;
+        font-weight: 700;
+        color: #121212;
+        transition: all .3s;
+    }
+    .products ul.pages .mainbox li a:hover {
+    background-color: #f33f3f!important;
+    color: #fff;
+    }
+    .right-box h2{
+            font-size: 17px;
+            color: #1a6692;
+            margin-bottom: 20px;
+        
+    }
+    .right-box p{
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #4a4a4a;
+    line-height: 24px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+    }
