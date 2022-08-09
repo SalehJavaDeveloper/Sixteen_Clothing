@@ -20,7 +20,7 @@ body{
     width: 100%;
     height: 100%;
     background-image: url(../assets/images/about-heading.jpg);
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -147,7 +147,7 @@ body{
         list-style: none;
         }
         .pages ul.mybox {
-            margin-top: 30px;
+        
             text-align: center;
         }
         .pages ul li{
@@ -166,17 +166,7 @@ body{
         border-color: #f33f3f;
         color: #fff;
     }
-    .pages ul li a {
-        width: 44px;
-        height: 44px;
-        display: inline-block;
-        line-height: 42px;
-        border: 1px solid #eee;
-        font-size: 15px;
-        font-weight: 700;
-        color: #121212;
-        transition: all .3s;
-    }
+  
     .products ul.pages .mainbox li a:hover {
     background-color: #f33f3f!important;
     color: #fff;
@@ -193,6 +183,137 @@ body{
     font-weight: 300;
     color: #4a4a4a;
     line-height: 24px;
-    border-bottom: 1px solid #eee;
-    padding-bottom: 20px;
-    }
+    border-bottom: 1px solid #eee;}
+.mybox{
+padding: 0;
+margin: 0;
+list-style: none;
+}
+
+.mybox li a{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    line-height: 50px;
+    background-color: #eee;
+    color: #121212;
+    font-size: 18px;
+    text-align: center;
+    transition: all .3s;
+}
+.product h2{
+font-size: 28px;
+font-weight: 400;
+color: #1e1e1e;
+margin-bottom: 15px;
+}
+.team-members{
+border: 1px solid #eee;
+margin-bottom: 30px;
+position: relative;
+display: block;
+width: 290.5px;
+}
+.team-members img{
+width: 289.5;
+}
+.team-box{
+position: relative;
+float: left;
+}
+.team-members .team-box .hover-effect{
+    width: 287.98px;
+    position: absolute;
+    background-color: rgba(243,63,63,0.9);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .5s;
+    display: block;
+}
+.team-members .team-box .hover-effect .hover-content{
+    height: 50px;
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    visibility: hidden !important;
+}
+.social-icons{
+width: 25% !important;
+height: 50px;
+}
+.team-members:hover .hover-effect {
+    visibility: visible !important;
+    opacity: 1;
+}
+.social-icons ul{
+padding: 0;
+margin: 0;
+list-style: none;
+float: left;
+}
+ul.social-icons li{
+display: inline-block;
+margin-right: 3px;
+}
+ul.social-icons li a{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    line-height: 50px;
+    background-color: #eee !important;
+    color: #121212;
+    font-size: 18px;
+    text-align: center;
+    transition: all .3s;
+    visibility: visible;
+}
+.content{
+padding: 30px;
+text-align: center;
+position: relative;
+}
+.content h4{
+    font-size: 17px;
+    color: #1a6692;
+    margin-bottom: 8px;
+}
+.content span{
+    display: block;
+    font-size: 13px;
+    color: #f33f3f;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.content p{
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #4a4a4a;
+    line-height: 24px;
+}
+.team-box{
+    width: 25%;
+    float: left;
+    border: 1px solid rgb(219, 214, 214);
+}
+.team{
+    max-width: 1200px;
+    padding: 100px 15px;
+    margin: 0 auto;
+}
+.team hr{
+margin-bottom: 70px;
+}
+ul.social-icons{
+width: 25%;
+height: 50px;
+margin: 0 auto;
+}
+

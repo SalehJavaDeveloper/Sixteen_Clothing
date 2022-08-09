@@ -1,0 +1,208 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    }
+    .clearfix:after{
+        content: "";
+        display: block;
+        clear: both;
+    }
+    
+    *{
+        box-sizing: border-box;
+    }
+    html{
+    font-size: 16px;
+    }
+    /* Banner Navigation */
+    .nav-center ul li a:hover{
+    text-decoration: underline;
+    color: #f23434;
+    }
+    .master{
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/images/contact-heading.jpg);
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 100px;
+    }
+    
+    .navigation{
+    background-color: rgb(31, 30, 30);
+    }
+    .nav-center{
+    max-width: 1200px;
+    margin: 0 auto;
+    }
+    .nav-center h1{
+    float: left;
+    padding-left: 10px;
+    columns: #fff;
+    padding-top: 5px;
+    }
+    .orange{
+    color: #f23434;   
+    }
+    .nav-center ul{
+    float: right;
+    }
+    .navigation ul li{
+    float: left;
+    list-style: none;
+    font-weight: 700;
+    padding: 15px 40px 0px 0px;
+    padding-top: 12px;
+    font-size: 1rem;
+    }
+    .icon{
+    float: right;
+    margin: 20px 10px 0 0;
+    background-color: transparent;
+    border:none;
+    outline: none;
+    display: none;
+    }
+    a{
+        color: #fff;
+        text-decoration: none;
+    }
+    .fa{
+    font-size: 30px;
+    color: #fff;
+    }
+    
+    .banner{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 30vh;
+    color: #fff;
+    }
+    .banner h3{
+    color:#f23434;
+    font-size: 1.4rem; 
+    }
+    .banner h1{
+    font-size: 3.5rem;
+    letter-spacing: 5px;
+    font-weight: 500;
+    margin-top: 0;
+    }
+   
+    .location{
+    width: 960px;
+    text-align: left;
+    margin-bottom: 60px !important;
+    border-bottom: 1px solid #eee;
+    margin: 0 auto;
+    }
+    .location h2{
+    font-size: 28px;
+    font-weight: 400;
+    color: #1e1e1e;
+    margin-bottom: 15px;
+    }
+    .locinfo{
+    max-width: 960px;
+    margin: 0 auto 80px auto;
+    }
+    .right-box{
+    width: 256px;
+    margin-left: 30px;
+    float: right;
+    }
+   .container .locinfo .right-box h4{
+    font-size: 17px;
+    color: #1a6692;
+    margin-bottom: 20px;
+    }
+    .locinfo .right-box p{
+    border-bottom: 1px solid #eee;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #4a4a4a;
+    line-height: 24px;
+    }
+    .message{
+    max-width: 960px;
+    margin: 0 auto 70px auto;
+    }
+    .mesright-box{
+        width: 256px;
+        margin-left: 30px;
+        float: right;
+    }
+    .mesleft-box{
+    width: 610px;
+    }
+    .message form input {
+        font-size: 14px;
+        width: 100%;
+        height: 44px;
+        display: inline-block;
+        line-height: 42px;
+        border: 1px solid #eee;
+        border-radius: 0px;
+        margin-bottom: 30px;
+    }
+    .form-control {
+        display: block;
+        width: 100%;
+        height: calc(2.25rem + 2px);
+        padding: 0.375rem 0.75rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        color: #495057;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        border-radius: 0.25rem;
+        transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    }
+    
+.message textarea {
+    font-size: 14px;
+    width: 100%;
+    min-width: 100%;
+    min-height: 120px;
+    height: 120px;
+    max-height: 180px;
+    border: 1px solid #eee;
+    border-radius: 0px;
+    margin-bottom: 30px;
+}
+.message form button {
+    background-color: #f33f3f;
+    color: #fff;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 300;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    transition: all 0.3s;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.customer{
+max-width: 960px;
+margin: 0 auto;
+float: left;
+}
+.customer .mybox{
+    width: 162px;
+    margin-right: 30px;
+    float: left;
+}
+.mybox img{
+width: 100%;
+
+}

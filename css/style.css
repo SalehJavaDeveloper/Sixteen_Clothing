@@ -16,11 +16,15 @@ html{
 font-size: 16px;
 }
 /* Banner Navigation */
+.nav-center ul li a:hover{
+text-decoration: underline;
+color: #f23434;
+}
 .master{
 width: 100%;
 height: 100%;
 background-image: url(../assets/images/slide_01.jpg);
-background-attachment: fixed;
+background-attachment: scroll;
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
@@ -90,7 +94,7 @@ margin-top: 0;
 }
 /* Product */
 .product{
-max-width: 1200px;
+max-width: 960px;
 padding: 100px 15px;
 margin: 0 auto;
 }
@@ -116,7 +120,7 @@ width: 100%;
 padding-top:30px ;
 }
 .product-box{
-width: 25%;
+width: 29%;
 float: left;
 margin: 0 2%;
 padding-bottom: 15px;
@@ -159,7 +163,7 @@ margin-top: 10px;
 }
 /* About */
 .about{
-max-width: 1200px;
+max-width: 960px;
 margin: 0 auto;
 padding: 0 15px;
 }
@@ -221,7 +225,7 @@ width: 100%;
 
 /* Purtchase */
 .purchase{
-max-width: 1200px;
+max-width: 960px;
 margin: 0 auto;
 padding: 50px 15px;
 }
@@ -266,7 +270,7 @@ background-color: rgb(214, 214, 218);
 }
 /* Footer */
 .footer{
-max-width: 1200px;
+max-width: 960px;
 margin: 0 auto;
 text-align: center;
 padding: 0 15px 50px 15px;
@@ -281,4 +285,7 @@ padding: 0 15px 50px 15px;
     font-weight: 300;
     color: #4a4a4a;
     line-height: 24px;
+}
+.five-star{
+color:  #f23434;;
 }
