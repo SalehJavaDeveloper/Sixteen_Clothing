@@ -94,7 +94,7 @@ body{
     }
    
     .location{
-    width: 960px;
+    width: 1140px;
     text-align: left;
     margin-bottom: 60px !important;
     border-bottom: 1px solid #eee;
@@ -107,7 +107,7 @@ body{
     margin-bottom: 15px;
     }
     .locinfo{
-    max-width: 960px;
+    max-width: 1140px;
     margin: 0 auto 80px auto;
     }
     .right-box{
@@ -131,7 +131,7 @@ body{
     line-height: 24px;
     }
     .message{
-    max-width: 960px;
+    max-width: 1140px;
     margin: 0 auto 70px auto;
     }
     .mesright-box{
@@ -193,16 +193,37 @@ body{
     cursor: pointer;
 }
 .customer{
-max-width: 960px;
+max-width: 1140px;
 margin: 0 auto;
-float: left;
+padding: 50px 0px;
 }
 .customer .mybox{
-    width: 162px;
+    width: 198px;
     margin-right: 30px;
-    float: left;
+    float: left;  
 }
 .mybox img{
 width: 100%;
-
+padding-bottom: 100px;
+}
+.customer hr{
+background-color: rgb(214, 214, 218);
+height: 1px;
+}
+.footer{
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 15px 100px 15px !important;
+    }
+    .templatemo{
+        color: #f33f3f;
+        margin-left: 3px;
+    }
+.footer p{
+        margin-bottom: 0px;
+        font-size: 14px;
+        font-weight: 300;
+        color: #4a4a4a;
+        line-height: 24px;
 }

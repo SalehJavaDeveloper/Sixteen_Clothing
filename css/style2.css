@@ -90,15 +90,14 @@ body{
     }
     /* Product */
 .product{
-    max-width: 960px;
-    padding: 100px 15px;
+    max-width: 1140px;
+    padding: 100px 0px 0px 0px;
     margin: 0 auto;
     }
     .product .filter {
         text-align: center;
         border-bottom: 1px solid #eee;
         padding-bottom: 10px;
-        margin-bottom: 60px;
     }
     .filter ul {
         padding: 0;
@@ -132,9 +131,9 @@ body{
     padding-top:30px;
     }
     .product-box{
-    width: 29%;
+    width: 31.3%;
     float: left;
-    margin: 0 2%;
+    margin: 2% 2% 2% 0;
     padding-bottom: 15px;
     border: 1px solid rgb(219, 214, 214);
     }
@@ -173,56 +172,24 @@ body{
     color: #f23434;
     margin-top: 10px;
     }
-    .pages{
-    max-width: 100%;
-        margin: 0 auto;
-        padding: 50px 15px;
-    }
-    .pages ul{
-    list-style: none;
-    }
-    .pages ul.mybox {
-        margin-top: 30px;
-        text-align: center;
-    }
-    .pages ul li{
-        
-    display: inline-block;
-    margin: 0px 2px;
-    }
-    .pages ul li a:hover{
+ .mypages{
+margin: 0 auto;
+text-align: center;
+ }
+    .mypages ul li a:hover{
         background-color: #f33f3f;
         border-color: #f33f3f;
         color: #fff;
     }
     
-.products ul.pages li a:hover {
-    background-color: #f33f3f;
-    border-color: #f33f3f;
-    color: #fff;
-}
-.pages ul li a {
-    width: 44px;
-    height: 44px;
-    display: inline-block;
-    line-height: 42px;
-    border: 1px solid #eee;
-    font-size: 15px;
-    font-weight: 700;
-    color: #121212;
-    transition: all .3s;
-}
-.products ul.pages .mainbox li a:hover {
-background-color: #f33f3f!important;
-color: #fff;
-}
-.pages hr{
+.mypages hr{
+max-width: 1140px;
 height: 1px;
 border: none;
 background-color: rgb(214, 214, 218);
 }
 .footer{
-    max-width: 960px;
+    max-width: 1140px;
     margin: 0 auto;
     text-align: center;
     padding: 0 15px 100px 15px !important;
@@ -237,4 +204,20 @@ background-color: rgb(214, 214, 218);
         font-weight: 300;
         color: #4a4a4a;
         line-height: 24px;
+}
+ul.social-icons li {
+    display: inline-block;
+    margin-right: 3px;
+}
+ul.social-icons li a {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    line-height: 50px;
+    background-color: #eee;
+    color: #121212;
+    font-size: 18px;
+    text-align: center;
+    transition: all .3s;
+    text-decoration: none!important;
 }
