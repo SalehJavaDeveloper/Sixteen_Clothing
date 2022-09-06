@@ -95,7 +95,7 @@ body{
    
     .location{
     width: 1140px;
-    text-align: left;
+    text-align: left !important;
     margin-bottom: 60px !important;
     border-bottom: 1px solid #eee;
     margin: 0 auto;
@@ -105,15 +105,17 @@ body{
     font-weight: 400;
     color: #1e1e1e;
     margin-bottom: 15px;
+    text-align: left;
     }
     .locinfo{
     max-width: 1140px;
     margin: 0 auto 80px auto;
     }
     .right-box{
-    width: 256px;
+    width: 319px;
     margin-left: 30px;
     float: right;
+    padding-bottom: 20px;
     }
    .container .locinfo .right-box h4{
     font-size: 17px;
@@ -122,25 +124,31 @@ body{
     }
     .locinfo .right-box p{
     border-bottom: 1px solid #eee;
-    padding-bottom: 30px;
+    padding-bottom: 7px;
     margin-bottom: 30px;
     margin-bottom: 0px;
     font-size: 14px;
     font-weight: 300;
     color: #4a4a4a;
     line-height: 24px;
+    margin-top: 5px;
     }
     .message{
     max-width: 1140px;
     margin: 0 auto 70px auto;
+    margin-bottom: 80px;
+    height: 490px;
     }
     .mesright-box{
-        width: 256px;
-        margin-left: 30px;
+        width: 380px;
+        margin-left: 20px;
         float: right;
+        padding-bottom: 40px;
+        margin-bottom: 80px;
     }
     .mesleft-box{
-    width: 610px;
+    width: 730px;
+    float: left;
     }
     .message form input {
         font-size: 14px;
@@ -150,7 +158,7 @@ body{
         line-height: 42px;
         border: 1px solid #eee;
         border-radius: 0px;
-        margin-bottom: 30px;
+        margin-bottom: 38px;
     }
     .form-control {
         display: block;
@@ -171,7 +179,7 @@ body{
     font-size: 14px;
     width: 100%;
     min-width: 100%;
-    min-height: 120px;
+    min-height: 154px;
     height: 120px;
     max-height: 180px;
     border: 1px solid #eee;
@@ -192,23 +200,10 @@ body{
     outline: none;
     cursor: pointer;
 }
-.customer{
-max-width: 1140px;
-margin: 0 auto;
-padding: 50px 0px;
-}
-.customer .mybox{
-    width: 198px;
-    margin-right: 30px;
-    float: left;  
-}
-.mybox img{
-width: 100%;
-padding-bottom: 100px;
-}
-.customer hr{
+.hr1{
 background-color: rgb(214, 214, 218);
 height: 1px;
+margin-bottom: 100px;
 }
 .footer{
     max-width: 1140px;
@@ -226,4 +221,78 @@ height: 1px;
         font-weight: 300;
         color: #4a4a4a;
         line-height: 24px;
+}
+ul.social-icons li {
+    display: inline-block;
+    margin-right: 3px;
+}
+ul.social-icons li a {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    line-height: 50px;
+    background-color: #eee;
+    color: #121212;
+    font-size: 18px;
+    text-align: center;
+    transition: all .3s;
+    text-decoration: none!important;
+}
+.social-icons{
+margin-right: 54px;
+}
+.mypages{
+margin-right: 20px;
+}
+#accordion{
+width: 380px;
+padding-bottom: 10px;
+}
+#accordion li{
+list-style: none;
+width: 100%;
+margin-bottom: 10px;
+background-color: #fff;
+padding: 10px;
+border-radius: 4px;
+}
+#accordion li label{
+display: flex;
+align-items: center;
+justify-content: space-between;
+font-size: 17px;
+cursor: pointer;
+color: #1a6692!important;
+border-bottom: 1px solid #eee;
+}
+#accordion li label:hover{
+color: #F33F3F !important;
+}
+#accordion li label span{
+transform: rotate(90deg);
+font-size: 22px;
+color: #333;
+}
+#accordion label + input[type="radio"]{
+display: none;
+}
+#accordion .content{
+padding: 0 10px;
+line-height: 26px;
+max-height: 0;
+overflow: hidden;
+transition: max-height 0.5s;
+}
+#accordion label + input[type="radio"]:checked + .content{
+max-height: 400px;
+}
+ul.social-icons li a i{
+    color: #121212;
+}
+ul.social-icons li a i:hover{
+color: rgba(243,63,63,0.9);
+}
+ul.social-icons li a:hover{
+background-color: #fff;
+color: rgba(243,63,63,0.9);
 }
